@@ -34,4 +34,4 @@ jobs:
         dotnet-version: 3.1.101
 
     - name: Run tests
-      run: Sender.exe | Receiver.exe
+      run: Sender\bin\Debug\netcoreapp3.1\Sender.exe | Receiver\bin\Debug\netcoreapp3.1\Receiver.exe
