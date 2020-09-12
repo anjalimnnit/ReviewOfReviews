@@ -1,0 +1,6 @@
+anjali,2
+is,3
+a,2
+rohan,2
+bandar,2
+$,1
