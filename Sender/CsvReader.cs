@@ -13,7 +13,7 @@ namespace Sender
         readonly List<string> _rawCommentRecords = new List<string>();
         private List<string> ReadCsvFile()
         {
-            StreamReader reader = new StreamReader(@".\review-report.csv");
+            StreamReader reader = new StreamReader(@".\sample-review\review-report.csv");
             while (reader.EndOfStream != true)
             {
                 string rawCommentRecord = reader.ReadLine();
