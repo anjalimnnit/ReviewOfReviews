@@ -18,7 +18,7 @@ jobs:
     runs-on: windows-latest  # For a list of available runner types, refer to
                              # https://help.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idruns-on
     env:
-      Solution_Name: SampleReviewCheck.sln
+      Solution_Name: ReceiverModule.sln
    #   Test_Project_Path: Statistics.Test\Statistics.Test.csproj                 # Replace with the path to your test project, i.e. MyWpfApp.Tests\MyWpfApp.Tests.csproj.
 
     steps:
@@ -34,4 +34,4 @@ jobs:
         dotnet-version: 3.1.101
 
     - name: Run tests
-      run: Sender\bin\Debug\netcoreapp3.1\Sender.exe | Receiver\bin\Debug\netcoreapp3.1\Receiver.exe
+      run: dotnet test
