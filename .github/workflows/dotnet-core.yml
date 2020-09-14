@@ -36,7 +36,9 @@ jobs:
     - name: Run tests
       run: dotnet test
 
-    - name: Build the App
-      shell: cmd
+    - name: Build with dotnet
+      run: dotnet build --configuration Release
+
+    - name: Run the App
       run: Sender\bin\Debug\netcoreapp3.1\Sender.exe | Receiver\bin\Debug\netcoreapp3.1\Receiver.exe
     
