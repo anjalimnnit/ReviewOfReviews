@@ -23,7 +23,7 @@ namespace SenderModule
 
         public static void ChooseFilter(List<CommentRecord> commentRecords, string columnFilter)
         {
-            StreamWriter writer = new StreamWriter(@"D:\a\review-case-s22b4\review-case-s22b4\Sender.Test\bin\Debug\netcoreapp3.1\sample-review\LogFile.txt");
+            StreamWriter writer = new StreamWriter(@"D:\a\ReviewofReviews\ReviewofReviews\Sender.Test\bin\Debug\netcoreapp3.1\sample-review\LogFile.txt");
             if (columnFilter == "timestamp")
             {
                 foreach (CommentRecord record in commentRecords)
