@@ -40,5 +40,5 @@ jobs:
       run: dotnet build --configuration Release
 
     - name: Run the App
-      run: D:\a\SampleRep\ReviewOfReviews\SenderModule\bin\Debug\netcoreapp3.1\Sender.exe | D:\a\SampleRep\ReviewOfReviews\ReceiverModule\bin\Debug\netcoreapp3.1\Receiver.exe
+      run:  SenderModule\bin\Debug\netcoreapp3.1\SenderModule.exe | ReceiverModule\bin\Debug\netcoreapp3.1\ReceiverModule.exe
     
