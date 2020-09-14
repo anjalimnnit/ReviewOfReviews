@@ -6,7 +6,7 @@ namespace SenderModule
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.Out.WriteLine("Hello Word");
         }
     }
 }

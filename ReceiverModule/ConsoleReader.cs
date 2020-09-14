@@ -1,18 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
-
-
-
 namespace ReceiverModule
 {
     public interface IReader
     {
-        public void ReadProcessedData(string outputFile);
+        public List<string> ReadProcessedData(string outputFile);
     }
     
     public class ConsoleReader : IReader
     {
-        public void ReadProcessedData(string outputFilePath)
+        public List<string> ReadProcessedData(string outputFilePath)
         {
             var rawCommentRecords = new List<string>();
             string commentRecord;
@@ -20,8 +17,9 @@ namespace ReceiverModule
             {
                 rawCommentRecords.Add(commentRecord);
             }
-            var splitter = new FieldSplitter();
-            splitter.SplitFields(rawCommentRecords,outputFilePath);
+            // var splitter = new FieldSplitter();
+            // splitter.SplitFields(rawCommentRecords,outputFilePath);
+            return rawCommentRecords;
         }
     }
 }

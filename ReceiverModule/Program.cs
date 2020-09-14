@@ -1,11 +1,18 @@
-﻿namespace ReceiverModule
+﻿using System;
+using System.Collections.Generic;
+
+namespace ReceiverModule
 {
     class Program
     {
         static void Main(string[] args)
         {
-            ConsoleReader reader = new ConsoleReader();
-            reader.ReadProcessedData("WordCount.csv");
+    
+          string s=  Console.In.ReadLine();
+            Console.WriteLine(s);
+            
+
+
         }
     }
 }
