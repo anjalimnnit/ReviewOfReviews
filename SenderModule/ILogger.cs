@@ -19,6 +19,7 @@ namespace SenderModule
             }
             
             ChooseFilter(commentRecords, columnFilter);
+            Console.WriteLine("$");
         }
 
         public static void ChooseFilter(List<CommentRecord> commentRecords, string columnFilter)
