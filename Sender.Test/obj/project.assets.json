@@ -901,6 +901,16 @@
         "build": {
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "SenderModule/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/SenderModule.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SenderModule.dll": {}
+        }
       }
     }
   },
@@ -3494,11 +3504,17 @@
         "xunit.runner.visualstudio.2.4.0.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "SenderModule/1.0.0": {
+      "type": "project",
+      "path": "../SenderModule/SenderModule.csproj",
+      "msbuildProject": "../SenderModule/SenderModule.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.NET.Test.Sdk >= 16.5.0",
+      "SenderModule >= 1.0.0",
       "coverlet.collector >= 1.2.0",
       "xunit >= 2.4.0",
       "xunit.runner.visualstudio >= 2.4.0"
@@ -3510,11 +3526,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Anji\\source\\repos\\ReceiverModule\\Sender.Test\\Sender.Test.csproj",
+      "projectUniqueName": "C:\\Users\\Anji\\Desktop\\samplerep\\ReviewOfReviews\\Sender.Test\\Sender.Test.csproj",
       "projectName": "Sender.Test",
-      "projectPath": "C:\\Users\\Anji\\source\\repos\\ReceiverModule\\Sender.Test\\Sender.Test.csproj",
+      "projectPath": "C:\\Users\\Anji\\Desktop\\samplerep\\ReviewOfReviews\\Sender.Test\\Sender.Test.csproj",
       "packagesPath": "C:\\Users\\Anji\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Anji\\source\\repos\\ReceiverModule\\Sender.Test\\obj\\",
+      "outputPath": "C:\\Users\\Anji\\Desktop\\samplerep\\ReviewOfReviews\\Sender.Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Anji\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3529,7 +3545,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Anji\\Desktop\\samplerep\\ReviewOfReviews\\SenderModule\\SenderModule.csproj": {
+              "projectPath": "C:\\Users\\Anji\\Desktop\\samplerep\\ReviewOfReviews\\SenderModule\\SenderModule.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

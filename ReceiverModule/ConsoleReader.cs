@@ -5,24 +5,23 @@ using System.Collections.Generic;
 
 namespace ReceiverModule
 {
-    public class ConsoleReader
+    public interface IReader
     {
-        public List<string> ReadFromConsole()
+        public void ReadProcessedData(string outputFile);
+    }
+    
+    public class ConsoleReader : IReader
+    {
+        public void ReadProcessedData(string outputFilePath)
         {
-            List<string> _rawCommentRecords = new List<string>();
-            Console.WriteLine("Enter string");
-            while (true)
-            {   
-                string rawCommentRecord = Convert.ToString(Console.In.ReadLine());
-                _rawCommentRecords.Add(rawCommentRecord);
-                if (rawCommentRecord == "$")
-                {
-                    break;
-                }
+            var rawCommentRecords = new List<string>();
+            string commentRecord;
+            while ((commentRecord = Convert.ToString(Console.In.ReadLine())) != "$")
+            {
+                rawCommentRecords.Add(commentRecord);
             }
-            return _rawCommentRecords;
+            var splitter = new FieldSplitter();
+            splitter.SplitFields(rawCommentRecords,outputFilePath);
         }
-         
-
     }
 }

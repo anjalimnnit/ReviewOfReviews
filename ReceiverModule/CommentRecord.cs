@@ -1,27 +1,22 @@
-﻿using System;
-using System.Text;
+﻿using System.Text;
 
 
 namespace ReceiverModule
 {
     public class CommentRecord
     {
-        public string Date;
-        public string Time;
-        public string Comment;
-        
+        public StringBuilder Timestamp;
+        public StringBuilder Comment;
 
-        public CommentRecord(string date, string time, string comment)
+        public CommentRecord(StringBuilder timestamp, StringBuilder comment)
         {
-            this.Date = date;
-            this.Time = time;
+            this.Timestamp = timestamp;
             this.Comment = comment;
         }
         public CommentRecord()
         {
-            this.Date = "";
-            this.Time = "";
-            this.Comment ="";
+            this.Timestamp = new StringBuilder("");
+            this.Comment = new StringBuilder("");
         }
     }
 }

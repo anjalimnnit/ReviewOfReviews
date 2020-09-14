@@ -94,3 +94,9 @@ C:\Users\Anji\source\repos\ReceiverModule\Sender.Test\obj\Debug\netcoreapp3.1\Se
 C:\Users\Anji\source\repos\ReceiverModule\Sender.Test\obj\Debug\netcoreapp3.1\Sender.Test.dll
 C:\Users\Anji\source\repos\ReceiverModule\Sender.Test\obj\Debug\netcoreapp3.1\Sender.Test.pdb
 C:\Users\Anji\source\repos\ReceiverModule\Sender.Test\obj\Debug\netcoreapp3.1\Sender.Test.genruntimeconfig.cache
+C:\Users\Anji\Desktop\samplerep\ReviewOfReviews\Sender.Test\obj\Debug\netcoreapp3.1\Sender.Test.csprojAssemblyReference.cache
+C:\Users\Anji\Desktop\samplerep\ReviewOfReviews\Sender.Test\obj\Debug\netcoreapp3.1\Sender.Test.AssemblyInfoInputs.cache
+C:\Users\Anji\Desktop\samplerep\ReviewOfReviews\Sender.Test\obj\Debug\netcoreapp3.1\Sender.Test.AssemblyInfo.cs
+C:\Users\Anji\Desktop\samplerep\ReviewOfReviews\Sender.Test\obj\Debug\netcoreapp3.1\Sender.Test.csproj.CoreCompileInputs.cache
+C:\Users\Anji\Desktop\samplerep\ReviewOfReviews\Sender.Test\obj\Debug\netcoreapp3.1\Sender.Test.dll
+C:\Users\Anji\Desktop\samplerep\ReviewOfReviews\Sender.Test\obj\Debug\netcoreapp3.1\Sender.Test.pdb

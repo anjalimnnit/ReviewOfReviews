@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Anji\\source\\repos\\ReceiverModule\\ReceiverModule\\ReceiverModule.csproj",
+      "projectUniqueName": "C:\\Users\\Anji\\Desktop\\samplerep\\ReviewOfReviews\\ReceiverModule\\ReceiverModule.csproj",
       "projectName": "ReceiverModule",
-      "projectPath": "C:\\Users\\Anji\\source\\repos\\ReceiverModule\\ReceiverModule\\ReceiverModule.csproj",
+      "projectPath": "C:\\Users\\Anji\\Desktop\\samplerep\\ReviewOfReviews\\ReceiverModule\\ReceiverModule.csproj",
       "packagesPath": "C:\\Users\\Anji\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Anji\\source\\repos\\ReceiverModule\\ReceiverModule\\obj\\",
+      "outputPath": "C:\\Users\\Anji\\Desktop\\samplerep\\ReviewOfReviews\\ReceiverModule\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Anji\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -3526,11 +3526,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Anji\\source\\repos\\ReceiverModule\\Receiver.Test\\Receiver.Test.csproj",
+      "projectUniqueName": "C:\\Users\\Anji\\Desktop\\samplerep\\ReviewOfReviews\\Receiver.Test\\Receiver.Test.csproj",
       "projectName": "Receiver.Test",
-      "projectPath": "C:\\Users\\Anji\\source\\repos\\ReceiverModule\\Receiver.Test\\Receiver.Test.csproj",
+      "projectPath": "C:\\Users\\Anji\\Desktop\\samplerep\\ReviewOfReviews\\Receiver.Test\\Receiver.Test.csproj",
       "packagesPath": "C:\\Users\\Anji\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Anji\\source\\repos\\ReceiverModule\\Receiver.Test\\obj\\",
+      "outputPath": "C:\\Users\\Anji\\Desktop\\samplerep\\ReviewOfReviews\\Receiver.Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Anji\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3546,8 +3546,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Anji\\source\\repos\\ReceiverModule\\ReceiverModule\\ReceiverModule.csproj": {
-              "projectPath": "C:\\Users\\Anji\\source\\repos\\ReceiverModule\\ReceiverModule\\ReceiverModule.csproj"
+            "C:\\Users\\Anji\\Desktop\\samplerep\\ReviewOfReviews\\ReceiverModule\\ReceiverModule.csproj": {
+              "projectPath": "C:\\Users\\Anji\\Desktop\\samplerep\\ReviewOfReviews\\ReceiverModule\\ReceiverModule.csproj"
             }
           }
         }

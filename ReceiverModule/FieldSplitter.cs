@@ -1,42 +1,50 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.Generic;
 using System.Text;
 
 
 namespace ReceiverModule
-
 {
-    public class FieldSplitter
+   public class FieldSplitter
     {
-        List<CommentRecord> _commentRecords = new List<CommentRecord>();
+        readonly List<CommentRecord> _commentRecords = new List<CommentRecord>();
         CommentRecord _currentRecord;
-        public List<CommentRecord> SplitFields (List<string> rawCommentRecords)
+        private void CheckIfFieldIsCommentOrDate(string field)
+        {
+            if (char.IsLetter(field[0]))
+            {
+                _currentRecord.Comment = _currentRecord.Comment.Append(field);
+            }
+            else
+            {
+                _currentRecord.Timestamp = _currentRecord.Timestamp.Append(field);
+            }
+        }
+        public List<CommentRecord> SplitFields(List<string> rawCommentRecords, string outputFilePath)
         {
 
             foreach (string record in rawCommentRecords)
-            {   
-                var fields = record.Split(new char[] { ' ' });
-                 ValidateAndAddRecord(fields);
+            {
+                _currentRecord = new CommentRecord();
+                var fields = record.Split(',' );
+                if (fields.Length == 2)
+                {
+                    ValidateAndAddRecord(fields);
+                }
+                else
+                {
+                    CheckIfFieldIsCommentOrDate(fields[0]);
+                }
                 _commentRecords.Add(_currentRecord); 
             }
+
+            var frequencyGenerator = new WordFrequencyGenerator();
+            frequencyGenerator.GenerateFrequencyList(_commentRecords, outputFilePath);
             return _commentRecords;
         }
-        
-        public void ValidateAndAddRecord(string[] fields)
+
+        private void ValidateAndAddRecord(string[] fields)
         {
-            if (fields.Length == 3)
-            {
-                _currentRecord = new CommentRecord(fields[0], fields[1], fields[2]);
-            }
-            else if (fields.Length > 3)
-            {
-                for (int i = 3; i < fields.Length; i++)
-                    fields[2] = fields[2] + " " + fields[i];
-                _currentRecord = new CommentRecord(fields[0], fields[1],fields[2]);
-            }
-            else
-                _currentRecord = new CommentRecord();
+                _currentRecord = new CommentRecord(new StringBuilder(fields[0]), new StringBuilder(fields[1]));
         }
 
     }
