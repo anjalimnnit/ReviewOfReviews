@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\.github",
+    "\\AssistPurchase",
+    "\\AssistPurchase.Test",
+    "\\AssistPurchase\\Controllers",
+    "\\AssistPurchase\\Repositories",
+    "\\AssistPurchase\\Repositories\\Implementations"
+  ],
+  "SelectedNode": "\\AssistPurchase\\Controllers\\ProductsDatabaseController.cs",
+  "PreviewInSolutionExplorer": false
+}

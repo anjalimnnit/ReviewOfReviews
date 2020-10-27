@@ -1,0 +1,23 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8462027e_002D84a4_002D4174_002Db5ef_002De3f6ef5fc1bb/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ReturnsListOfAlerts #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::DED94468-EC0C-47D3-92DE-F465CBBF8893::.NETCoreApp,Version=v3.1::AssistPurchase.Test.CustomerDbTest.ReturnsOkStatusCodeWhenAlertIsAdded&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::DED94468-EC0C-47D3-92DE-F465CBBF8893::.NETCoreApp,Version=v3.1::AssistPurchase.Test.CustomerDbTest.ReturnsBadRequestStatusCodeWhenProductIdDoesNotExist&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::DED94468-EC0C-47D3-92DE-F465CBBF8893::.NETCoreApp,Version=v3.1::AssistPurchase.Test.CustomerDbTest.ReturnsBadRequestWhenGivenAnInvalidCustomerId&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::DED94468-EC0C-47D3-92DE-F465CBBF8893::.NETCoreApp,Version=v3.1::AssistPurchase.Test.CustomerDbTest.CheckStatusCodeEqualOkGetAllProducts&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::DED94468-EC0C-47D3-92DE-F465CBBF8893::.NETCoreApp,Version=v3.1::AssistPurchase.Test.ProductDatabaseTest.CheckStatusCodeEqualOkGetAllProducts&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::DED94468-EC0C-47D3-92DE-F465CBBF8893::.NETCoreApp,Version=v3.1::AssistPurchase.Test.ProductDatabaseTest.ReturnsBadRequestWhenDeletingInvalidProductId&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::DED94468-EC0C-47D3-92DE-F465CBBF8893::.NETCoreApp,Version=v3.1::AssistPurchase.Test.ProductDatabaseTest.ReturnsBadRequestForGettingProductWithNonExistingId&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::DED94468-EC0C-47D3-92DE-F465CBBF8893::.NETCoreApp,Version=v3.1::AssistPurchase.Test.FiltersControllerTest.CheckStatusCodeEqualOkGetAllProducts&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::DED94468-EC0C-47D3-92DE-F465CBBF8893::.NETCoreApp,Version=v3.1::AssistPurchase.Test.FiltersControllerTest.CheckStatusCodeEqualOkGetProductById&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::DED94468-EC0C-47D3-92DE-F465CBBF8893::.NETCoreApp,Version=v3.1::AssistPurchase.Test.FiltersControllerTest.ReturnsBadRequestForInvalidProductId&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::DED94468-EC0C-47D3-92DE-F465CBBF8893::.NETCoreApp,Version=v3.1::AssistPurchase.Test.FiltersControllerTest.ReturnsProductListWhenGivenCompactFilter&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::DED94468-EC0C-47D3-92DE-F465CBBF8893::.NETCoreApp,Version=v3.1::AssistPurchase.Test.FiltersControllerTest.ReturnsBadRequestWhenGivenInvalidCompactFilterValue&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::DED94468-EC0C-47D3-92DE-F465CBBF8893::.NETCoreApp,Version=v3.1::AssistPurchase.Test.FiltersControllerTest.ReturnsProductListWhenGivenBelowPriceFilter&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=de9922fe_002Db599_002D4bfd_002Da5c0_002Dd70fab45d47d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ReturnsListOfAlerts" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::DED94468-EC0C-47D3-92DE-F465CBBF8893::.NETCoreApp,Version=v3.1::AssistPurchase.Test.DatabaseTest.CustomerDbTest.ReturnsListOfAlerts&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

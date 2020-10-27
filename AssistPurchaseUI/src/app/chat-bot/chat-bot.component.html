@@ -1,0 +1,14 @@
+<br>
+    <div id='bodybox'>
+    <h1>ChatBot</h1>
+    <div id='chatborder'>
+    <textarea class="textarea" rows="10" cols="60" [innerHTML]="values"></textarea>
+    <input type="text" name="chat" id="chatbox" [(ngModel)]="boxText" placeholder="Hi there! Type your questions here">&nbsp;&nbsp;
+    <input type="text" name="price" id="price" [(ngModel)]="amount" placeholder="Enter price"><br>
+    <input id = "submit" class="button" type="submit" name="Submit" (click)="enterText()">
+    <input  class="button" id="contact" type="submit" value="Select Product" (click)="navigate()">
+    </div>
+    </div>
+    <div>
+      <p id="note">***Please base you questions on available filters.<br><br>Filters available: Compactness, Portability, Battery support, Price, Product specific training, Software update support, Third party device support, Safe to fly certification, Touch screen support, Multi-patient support, Cyber security</p>
+    </div>

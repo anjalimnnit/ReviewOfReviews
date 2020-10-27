@@ -1,0 +1,16 @@
+
+ <br>
+ <fieldset class="Infoform">
+ <form>
+ <h1>Product Details</h1>
+ <div class="container">
+ <label><strong>Product ID</strong></label>
+ <input type="text" placeholder="Enter Product Id" name="productId" [(ngModel)]="productId" required>
+ 
+ </div><br><br>
+ <input class="button" id="get"type="submit" value="Get Device" (click)="onGet()">&nbsp;&nbsp;
+ <input class="button" id="reset" type="reset" value="Reset" (click)="reset()">
+ </form>
+ </fieldset>
+
+ <p [innerHTML]="htmlMessage"></p>

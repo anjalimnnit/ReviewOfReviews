@@ -1,0 +1,36 @@
+<br>
+<fieldset class="Infoform">
+<form>
+<h1>Contact Information</h1>
+<div class="container">
+<label><strong>Username</strong></label>
+<input type="text" name="customerName" placeholder="Enter Name" [(ngModel)]="customerName"  required>
+<label><strong>E-mail</strong></label>
+<input type="email" name="emailId" placeholder="Enter E-mail" [(ngModel)]="emailId" required>
+<label><strong>Phone number</strong></label>
+<input type="text" name="phoneNumber" placeholder="Enter Phone Number" [(ngModel)]="phoneNumber" required>
+</div><br>
+<label><strong>Product</strong></label>&nbsp;&nbsp;
+<select id = "myList" name="productId" [(ngModel)]="productId">
+    <option value = "MX40">Intellivue MX40</option>
+    <option value = "MX800">Intellivue MX800</option>
+    <option value = "MMSX2">Intellivue MMSX2</option>
+    <option value = "MP2">Intellivue MP2</option>
+    <option value = "MX500">Intellivue MX500</option>
+    <option value = "MX550">Intellivue MX550</option>
+    <option value = "MX700">Intellivue MX700</option>
+    <option value = "MX750">Intellivue MX750</option>
+    <option value = "AD85">Intellivue AD85</option>
+    <option value = "MP5">Intellivue MP5</option>
+    <option value = "MX450">Intellivue MX450</option>
+    <option value = "MX400">Intellivue MX400</option>
+    <option value = "MP5T">Intellivue MP5T</option>
+    <option value = "MX100">Intellivue MX100</option>
+    <option value = "CM">Efficia CM</option>
+    <option value = "G40E">Goldway G40E</option>
+</select><br><br> 
+<input id="contact" type="submit" name="submit" value="Contact Sales Person" (click)="contactSalesPerson()">&nbsp;&nbsp;
+<input id="reset" type="reset" name="reset" value="Reset" (click)="reset()">
+</form>
+<p>{{message}}</p>
+</fieldset>

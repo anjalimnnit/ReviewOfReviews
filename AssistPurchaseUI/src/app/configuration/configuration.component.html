@@ -1,0 +1,13 @@
+<div class="menu">
+    <br>
+    <button id="add" class="button" (click)="navigateAddDevice();">Add Product</button> &nbsp;
+    <button id="delete" class="button" (click)="navigateDeleteDevice();">Delete Product</button> &nbsp;
+    <button id="update" class="button" (click)="navigateUpdateDevice();">Update Product</button> &nbsp;
+    <button id="getall" class="button" (click)="navigateGetAllDevices();">All Products</button> &nbsp;
+    <button id="get" class="button" (click)="navigateGetDeviceById();">Get Product By Id</button> &nbsp;
+    
+</div>
+
+<div class="result">
+    <p [innerHTML]="htmlMessage"></p>
+</div>

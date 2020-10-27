@@ -1,0 +1,17 @@
+
+ <br>
+ <fieldset class="Infoform">
+ <form>
+ <h1>Delete Product</h1>
+ <div class="container">
+ <label><strong>Product ID</strong></label>
+ <input type="text" placeholder="Enter Product Id" name="productId" [(ngModel)]="productId" required>
+ 
+ </div><br><br>
+ <input type="submit" id="delete" value="Delete Device" (click)="onDelete()">&nbsp;&nbsp;
+ <input type="reset" id="reset" value="Reset" (click)="reset()">
+
+ 
+ </form>
+ <p>{{message}}</p>
+ </fieldset>

@@ -1,0 +1,25 @@
+<br><fieldset class="Infoform">
+<p>**For operations personnel only</p>
+<br>
+<label>User Name :</label>
+     <input placeholder="Enter Name"
+        #userNameTextBox
+        type="text"
+        (input)="onUserNameEdit(userNameTextBox.value)"
+        [value]="userName"  />
+ 
+  <label> Password : </label> 
+ <input placeholder="Enter Password"
+       #passwordTextBox
+       type="password"
+        (input)="onPasswordEdit(passwordTextBox.value)"
+        [value]="password" />
+  <br><br>
+    <button id="login"  (click)="onLogin()">Login</button>&nbsp;&nbsp;  
+      <button id="reset" (click)="onReset()" >Reset</button> <br>
+
+     <output> {{errorMessage}}</output> 
+  
+
+
+</fieldset>
